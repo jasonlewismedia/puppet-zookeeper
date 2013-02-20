@@ -1,11 +1,11 @@
-# WGet Puppet Module for Boxen
+# Zookeeper Puppet Module for Boxen
 
 Requires the following boxen modules:
 
 ## Usage
 
 ```puppet
-include wget
+include zookeeper
 ```
 
 ## Required Puppet Modules

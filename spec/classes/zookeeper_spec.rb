@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'wget' do
+describe 'zookeeper' do
   let(:facts) do
     {
       :boxen_home => '/opt/boxen'
@@ -8,6 +8,6 @@ describe 'wget' do
   end
 
   it do
-    should contain_package('wget')
+    should contain_package('zookeeper')
   end
 end

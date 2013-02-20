@@ -1,10 +1,10 @@
-# Public: Install wget via homebrew
+# Public: Install Apache Zookeeper via homebrew
 #
 # Examples
 #
-#   include wget
-class wget {
+#   include zookeeper
+class zookeeper {
   include homebrew
 
-  package { 'wget': }
+  package { 'zookeeper': }
 }
